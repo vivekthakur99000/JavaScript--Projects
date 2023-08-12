@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: brown;
+}
+
+.color-flipper{
+    width: 100vw;
+    height: 100vh;
+    max-width: 1180px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+button{
+    padding: 1rem 2rem;
+    background: #000;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+button:hover{
+    color: black;
+    background: #fff;
+    transform: translateY(-5px);
+}
+
+h1{
+    color: white;
+    font-size: 64px;
+}
