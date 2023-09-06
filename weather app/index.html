@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex">
+        <div class="weather-app">
+            <div class="city flex">
+                <input type="text" placeholder="Enter the city" id="cityname">
+                <button id="sear" class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="tempreture flex">
+                <img src="images/clouds.png"  id="temp-img">
+                <h1 id="temp">22&#8451</h1>
+                <h2 id="city-name">New York</h2>
+            </div>
+            <div class="others flex">
+                <div class="humidity flex">
+                    <img src="images/humidity.png" >
+                    <div class="details">
+                        <h3 id="humi">64<span>%</span></h3>
+                        <p>Humidity</p>
+                    </div>
+                    
+                </div>
+                <div class="wind flex">
+                    <img src="images/wind.png">
+                    <div class="details">
+                        <h3 id="windd" >18km/h</h3>
+                    <p>Wind Speed</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/51dc8a3fce.js" crossorigin="anonymous"></script>
+</body>
+</html>
