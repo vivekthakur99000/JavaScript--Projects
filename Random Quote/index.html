@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quote of the day</h2>
+        <div class="quote-section">
+            <h3 id="quote" >Loading...</h3>
+            <p id="author">Loading...</p>
+        </div>
+        <div class="btns">
+            <button class="btn" id="newQuote" onclick="getQuote(url)">New quote</button>
+            <button class="btn" id="tweet" onclick="tweet()">Tweet<i class="fa-brands fa-x-twitter"></i></button>
+
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/51dc8a3fce.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
